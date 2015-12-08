@@ -1,0 +1,6 @@
+name = Predis Lib
+description = Provides a libraries implementation for Predis lib.
+core = 7.x
+package = BT Labs
+version = 7.x-1.0
+project = predis_lib

@@ -1,0 +1,18 @@
+<?php
+/**
+ * Implements hook_libraries_info().
+ */
+function predis_lib_libraries_info() {
+  $libraries['predis'] = array(
+    'name' => 'Predis: PHP client for Redis',
+    'vendor url' => 'https://github.com/nrk/predis',
+    'download url' => 'https://github.com/nrk/predis',
+    'version' => '1',
+    'files' => array(
+      'php' => array(
+        'autoload.php'
+      )
+    )
+  );
+  return $libraries;
+}
